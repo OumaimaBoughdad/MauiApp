@@ -20,10 +20,26 @@ This application aims to provide a complete digital solution for modern restaura
 
 Here are some screen shots of the application : 
 
-![Image](https://github.com/user-attachments/assets/2c7be126-f76a-4ce1-bde1-7d299aa62867)
+Home page : 
+featuring a menu categorized into Entrees, Sides, Snacks, Desserts, and Drinks, displaying three food items  with descriptions and prices, and a "Clear Cart" button at the bottom for order management, Also we can visualise any other category of food.
 
-The food interface where you can a new item : 
-![Image](https://github.com/user-attachments/assets/5dd60fb7-2e78-479f-bb69-ac25324d1b6e)
+![Image](https://github.com/user-attachments/assets/9f7679fa-0f0e-40ee-bc05-146615b204f7)
+
+For example drinks category : 
+
+![Image](https://github.com/user-attachments/assets/2a9a7be5-f2d1-400d-a026-887d4314d45a)
+
+this interface gives the possibility to add every item we want to the cart on the side by one step : clicking on the desired item and then we can add the quantity of that item: 
+![Image](https://github.com/user-attachments/assets/b87c7279-97d4-4207-aabb-67383ea55d6f)
+
+the second interface is for adding new items : 
+![Image](https://github.com/user-attachments/assets/c272c0ac-6983-4d69-825b-37fce9481903)
+
+
+
+the third interface is for orders where we can review all the processed orders : 
+![image](https://github.com/user-attachments/assets/39129b63-ba38-414e-8701-ebac19a3d4a8)
+
 
 
 
