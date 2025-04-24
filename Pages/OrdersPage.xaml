@@ -1,0 +1,76 @@
+<ContentPage
+    x:Class="RestaurantPOS.Pages.OrdersPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:controls="clr-namespace:RestaurantPOS.Controls"
+    xmlns:data="clr-namespace:RestaurantPOS.Data"
+    xmlns:models="clr-namespace:RestaurantPOS.Models"
+    xmlns:vm="clr-namespace:RestaurantPOS.ViewModels"
+    x:DataType="vm:OrdersViewModel"
+    Shell.NavBarIsVisible="False">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <!-- Your existing styles -->
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <!-- Updated grid with sidebar -->
+    <Grid ColumnDefinitions="Auto, .75*, .25*">
+
+        <!-- Sidebar -->
+        <Grid Grid.Column="0" BackgroundColor="#F5F5F5" WidthRequest="200">
+            <StackLayout Spacing="10" Padding="10">
+                <Button 
+                    Text="Home" 
+                    BackgroundColor="Transparent" 
+                    TextColor="#099999" 
+                    FontAttributes="Bold" 
+                    Command="{Binding }" 
+                    CornerRadius="5" 
+                    BorderColor="#099999" 
+                    BorderWidth="1" 
+                    Padding="10" />
+                <Button 
+                    Text="Orders" 
+                    BackgroundColor="Transparent" 
+                    TextColor="#099999" 
+                    FontAttributes="Bold" 
+                    Command="{Binding }" 
+                    CornerRadius="5" 
+                    BorderColor="#099999" 
+                    BorderWidth="1" 
+                    Padding="10" />
+                <Button 
+                    Text="Food" 
+                    BackgroundColor="Transparent" 
+                    TextColor="#099999" 
+                    FontAttributes="Bold" 
+                    Command="{Binding }" 
+                    CornerRadius="5" 
+                    BorderColor="#099999" 
+                    BorderWidth="1" 
+                    Padding="10" />
+            </StackLayout>
+        </Grid>
+
+        <!-- Orders list and label -->
+        <Grid Grid.Column="1"
+              Padding="15"
+              RowDefinitions="Auto, *"
+              RowSpacing="15">
+            <!-- Your original middle content goes here -->
+            <!-- Copy the inner part of the first Grid from your original file -->
+        </Grid>
+
+        <!-- Selected order details panel -->
+        <Grid
+            Grid.Column="2"
+            BackgroundColor="{StaticResource LightWeat}"
+            RowDefinitions="Auto, *">
+            <!-- Your original right-side content goes here -->
+            <!-- Copy the right panel from your original file -->
+        </Grid>
+
+    </Grid>
+</ContentPage>

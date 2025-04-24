@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView
+    x:Class="RestaurantPOS.Controls.SidebarControl"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:vm="clr-namespace:RestaurantPOS.ViewModels"
+    x:DataType="vm:HomeViewModel">
+
+	<Grid BackgroundColor="#F5F5F5" WidthRequest="200">
+		<StackLayout Spacing="10" Padding="10">
+			<!-- Home Button -->
+			<Button
+                Text="Home"
+                BackgroundColor="Transparent"
+                TextColor="#003366"
+                FontAttributes="Bold"
+                Command="{Binding NavigateToHomeCommand}"
+                CornerRadius="5"
+                BorderColor="#003366"
+                BorderWidth="1"
+                Padding="10" />
+
+			<!-- Orders Button -->
+			<Button
+                Text="Orders"
+                BackgroundColor="Transparent"
+                TextColor="#003366"
+                FontAttributes="Bold"
+                Command="{Binding NavigateToOrdersCommand}"
+                CornerRadius="5"
+                BorderColor="#003366"
+                BorderWidth="1"
+                Padding="10" />
+
+			<!-- Food Button -->
+			<Button
+                Text="Food"
+                BackgroundColor="Transparent"
+                TextColor="#003366"
+                FontAttributes="Bold"
+                Command="{Binding NavigateToManageMenuCommand}"
+                CornerRadius="5"
+                BorderColor="#003366"
+                BorderWidth="1"
+                Padding="10" />
+		</StackLayout>
+	</Grid>
+</ContentView>
