@@ -22,3 +22,9 @@ Here are some screen shots of the application :
 
 ![Image](https://github.com/user-attachments/assets/2c7be126-f76a-4ce1-bde1-7d299aa62867)
 
+The food interface where you can a new item : 
+![Image](https://github.com/user-attachments/assets/5dd60fb7-2e78-479f-bb69-ac25324d1b6e)
+
+
+
+
