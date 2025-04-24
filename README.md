@@ -20,3 +20,5 @@ This application aims to provide a complete digital solution for modern restaura
 
 Here are some screen shots of the application : 
 
+![Image](https://github.com/user-attachments/assets/2c7be126-f76a-4ce1-bde1-7d299aa62867)
+
